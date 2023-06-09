@@ -6,6 +6,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'roboto', 'arial', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #444;
 }
 
 .container {
@@ -16,3 +21,9 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+/*
+open sans (robotoga almashladim condenced 700 topilmadi)(500) 400 600 700
+open sans condensed 700
+
+*/
