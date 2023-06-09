@@ -13,6 +13,13 @@ body {
   color: #444;
 }
 
+*:focus {
+  outline: 2px dotted #DE2E54;
+  outline-offset: 2px;
+}
+
+
+/* CONTAINER */
 .container {
   width: 100%;
   max-width: 1160px;
@@ -22,8 +29,99 @@ body {
   margin-left: auto;
 }
 
-/*
-open sans (robotoga almashladim condenced 700 topilmadi)(500) 400 600 700
-open sans condensed 700
 
-*/
+/* SITE-HEADER */
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* SITE LOGO */
+.site-logo {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+  color: #222;
+}
+
+.site-logo:hover {
+  color: #DE2E54;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+.site-logo-img {
+  margin-right: 16px;
+}
+
+
+/* SITENAV */
+.sitenav {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link {
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+
+.sitenav-link:hover {
+  color: #DE2E54;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+
+/*  */
+.main-link {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "roboto condensed", 'arial', sans-serif;
+  letter-spacing: 2px;
+  background-color: #DE2E54;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-link:hover {
+  background-color: #fff;
+  color: #DE2E54;
+}
+
+.main-link:active {
+  opacity: 0.6;
+  color:#fff;
+  background-color: #DE2E54;
+}
